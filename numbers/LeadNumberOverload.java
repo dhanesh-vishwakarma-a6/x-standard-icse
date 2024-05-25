@@ -1,6 +1,13 @@
 package numbers;
-/*
+/* 
+ * Write a program in java to check whether the number is Lead number or not.
+ * The sum of even digits equals to The sum of odd digits.
  * 
+ * 6369
+ * 6 + 6 = 12
+ * 3 + 9 = 12
+ * 
+ * 12 equals to 12
  */
 import java.util.Scanner;
 

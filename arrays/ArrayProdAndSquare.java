@@ -1,38 +1,39 @@
 package arrays;
 /*
- * Define a class to declare an array of size twenty of double datatype, accept the elements into
- * the array and perform the following :
+ * Define a class to declare an numbersay of size twenty of double datatype, accept the elements into
+ * the numbersay and perform the following :
  * 
  * Calculate and print the product of all the elements.
- * Print the square of each element of the array.
+ * Print the square of each element of the numbersay.
  */
 
 import java.util.Scanner;
 
-class ArrayProdAndSquare {
+class numbersayProdAndSquare {
     public static void main(String[] args) {
+        // user input
         Scanner scan = new Scanner(System.in);
         double numbers[] = new double[20];
-        double product = 1.0, square = 0.0;
+        double product = 1.0;
 
-        // input array elements
         System.out.println("Enter 20 numbers:");
-        for (int num = 0; num < numbers.length; num++) {
-            numbers[num] = scan.nextDouble();
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = scan.nextDouble();
         }
-
         scan.close();
 
-        // product of all the array elements
-        for (int num = 0; num < numbers.length; num++) {
-            product *= numbers[num];
+        // calculate product of numbers
+        for (int i = 0; i < numbers.length; i++) {
+            product *= numbers[i];
         }
-        System.out.println("Product of array elements: " + product);
 
-        // square of the array elements
-        for (int num = 0; num < numbers.length; num++) {
-            square = Math.pow(numbers[num], 2);
-            System.err.println(square);
+        System.out.println("Product = " + product);
+
+        System.out.println("Square of numbersay elements :");
+        // calculate square of numbers
+        for (int i = 0; i < numbers.length; i++) {
+            double sq = Math.pow(numbers[i], 2);
+            System.out.println(sq + " ");
         }
     }
 }

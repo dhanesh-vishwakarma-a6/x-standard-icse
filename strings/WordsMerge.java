@@ -11,7 +11,7 @@ package strings;
  */
 import java.util.Scanner;
 
-public class StringMerge {
+public class WordsMerge {
     public static void main(String[] args) {
         // user input
         Scanner scan = new Scanner(System.in);
