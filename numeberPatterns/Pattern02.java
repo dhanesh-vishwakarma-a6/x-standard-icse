@@ -1,4 +1,4 @@
-package patterns;
+package numeberPatterns;
 
 /*
  * Write a java program to generate the pattern using iteration (loop) statements: 

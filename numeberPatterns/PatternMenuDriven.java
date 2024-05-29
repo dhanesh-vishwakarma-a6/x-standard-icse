@@ -1,4 +1,4 @@
-package patterns;
+package numeberPatterns;
 
 /*
  * Using the switch statement, write a menu driven program for the following:

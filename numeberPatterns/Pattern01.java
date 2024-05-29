@@ -1,4 +1,4 @@
-package patterns;
+package numeberPatterns;
 
 /*
  * Write a java program to generate the pattern using iteration (loop) statements:
@@ -9,8 +9,7 @@ package patterns;
 *  #  *
 *  #  *  #
 *  #  *  #  *
-
- */
+*/
 
 public class Pattern01 {
     public static void main(String args[]) {

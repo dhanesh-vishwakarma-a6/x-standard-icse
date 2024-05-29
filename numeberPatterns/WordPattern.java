@@ -1,4 +1,4 @@
-package patterns;
+package numeberPatterns;
 
 /*
  * Write a menu driven program to display the pattern as per user’s choice.

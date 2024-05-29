@@ -26,9 +26,11 @@ public class SevenWonders {
         String locations[] = { "MEXICO", "BRAZIL", "INDIA", "CHINA", "PERU", "JORDAN",
                 "ITALY" };
 
-        Scanner in = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.print("Enter country: ");
-        String c = in.nextLine();
+        String c = scan.nextLine();
+        scan.close();
+
         int i;
 
         for (i = 0; i < locations.length; i++) {
@@ -38,7 +40,9 @@ public class SevenWonders {
             }
         }
 
-        if (i == locations.length)
+        if (i == locations.length) {
             System.out.println("Sorry Not Found!");
+        }
+
     }
 }

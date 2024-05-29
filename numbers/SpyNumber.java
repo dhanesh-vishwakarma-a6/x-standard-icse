@@ -1,7 +1,8 @@
 package numbers;
 
 /*
- * Write a program to accept a number and check and display whether it is a spy number or not. (A number is spy if the sum of its digits equals the product of its digits.)
+ * Write a program to accept a number and check and display whether it is a spy number or not.
+ * (A number is spy if the sum of its digits equals the product of its digits.)
 
 Example: consider the number 1124.
 Sum of the digits = 1 + 1 + 2 + 4 = 8

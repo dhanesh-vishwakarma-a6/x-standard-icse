@@ -3,7 +3,8 @@ package numbers;
 import java.util.Scanner;
 
 /*
- * Write a program to input a number and check and print whether it is a Pronic number or not. (Pronic number is the number which is the product of two consecutive integers)
+ * Write a program to input a number and check and print whether it is a Pronic number or not. 
+ * (Pronic number is the number which is the product of two consecutive integers)
 
 Examples:
 12 = 3 x 4

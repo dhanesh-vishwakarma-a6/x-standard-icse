@@ -1,0 +1,19 @@
+/*
+ * Comments:
+ * Program is running successfull without any systax & logical error
+ * 
+ */
+
+ /*
+ * Comments:
+ * Program is running successfull without any systax but logical error is there.
+ * 
+ */
+
+ /*
+ * Comments:
+ * Unable to run the program. Fix the errors.
+ * 
+ */
+
+ close the scanner instance after use.
